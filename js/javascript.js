@@ -5,7 +5,7 @@
 // console.log("Hello World");
 
 for (i = 1; i <= 5; i++) {
-    console.log("Hello World", i);
+    if (i % 2 !== 0) console.log(i);
 }
 
 // i = 0 is the initial expression
